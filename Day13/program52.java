@@ -22,6 +22,7 @@ class program52
         }
         System.out.println("Number of even elements: "+even);
         System.out.println("Number of odd elements: "+odd);
+        sc.close();
     }
 } 
 

@@ -22,5 +22,6 @@ class program51
         }
         System.out.println("Largest element: "+lg);
         System.out.println("smallest element: "+sm);
+        sc.close();
     }
 }

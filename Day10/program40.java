@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 class program40
 {
     public static void main(String[] args) 

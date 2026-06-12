@@ -17,5 +17,6 @@ class program50
         float avg= sum/n;
         System.out.println("Sum: "+sum);
         System.out.println("Average: "+avg);
+        sc.close();
     }
 }

@@ -14,5 +14,6 @@ class program49
         System.out.println("Array:");
         for(int i=0;i<n;i++)
             System.out.print(ar[i]+"\t");
+        sc.close();
     }
 }
