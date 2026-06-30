@@ -1,0 +1,34 @@
+import java.util.*;
+class program117
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of students: ");
+        int n = sc.nextInt();
+        sc.nextLine();
+        int roll[] = new int[n];
+        String name[] = new String[n];
+        double marks[] = new double[n];
+        for(int i = 0; i < n; i++)
+        {
+            System.out.println("\nEnter Details of Student " + (i + 1));
+            System.out.print("Enter Roll Number: ");
+            roll[i] = sc.nextInt();
+            sc.nextLine();
+            System.out.print("Enter Name: ");
+            name[i] = sc.nextLine();
+            System.out.print("Enter Marks: ");
+            marks[i] = sc.nextDouble();
+        }
+        System.out.println("\n----- Student Records -----");
+        for(int i = 0; i < n; i++)
+        {
+            System.out.println("\nStudent " + (i + 1));
+            System.out.println("Roll Number : " + roll[i]);
+            System.out.println("Name        : " + name[i]);
+            System.out.println("Marks       : " + marks[i]);
+        }
+        sc.close();
+    }
+}
